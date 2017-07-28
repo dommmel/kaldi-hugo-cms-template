@@ -9,7 +9,7 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: authors
     label: Authors
-    folder: "authors"
+    folder: "site/content/authors" 
     create: true
     fields:
       - {name: name, label: Name}
